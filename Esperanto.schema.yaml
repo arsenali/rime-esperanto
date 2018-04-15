@@ -1,0 +1,34 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: Esperanto
+  name: Esperanto
+  version: "0.2"
+  author:
+    - Darcy Shen <sadhen@zoho.com>
+    - 阿森納裡 <qq:15678407>
+
+engine:
+  processors:
+    - speller
+    - express_editor  # 編輯器
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator  # 碼表翻譯器
+
+speller:
+  alphabet: cghjsuxCGHJSUX
+  initials: 'cghjsuCGHJSU'  # 可作始碼
+  finals: 'xX'  # 可作末碼
+  auto_select: true  # 頂字上屏
+  max_code_length: 2
+  auto_select_unique_candidate: true  # 無重碼自動上屏
+
+translator:
+  dictionary: Esperanto
+  enable_completion: false  # 禁用編碼提示
+  enable_user_dict: false  # 禁用用户词典
