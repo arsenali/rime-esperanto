@@ -1,6 +1,6 @@
 # 世界语输入方案
 
-用“原字母+x”输入六个带帽字母ĉĝĥĵŝŭ。
+用 “原字母 + <kbd>x</kbd> ” 输入六个带帽字母 ĉĝĥĵŝŭ。
 
 相比于dekvar（Darcy Shen：sadhen@zoho.com）的[原版](http://fromwiz.com/share/s/2yNneO1LOQap2-bdmA21_AH13dajVP0ZX4H_2STPKk3cMiTI)有以下改进：
 
