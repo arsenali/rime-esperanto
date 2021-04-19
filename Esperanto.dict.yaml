@@ -6,7 +6,7 @@
 #
 
 ---
-name: Esperanto
+name: esperanto
 version: "0.2"
 sort: original
 use_preset_vocabulary: false
