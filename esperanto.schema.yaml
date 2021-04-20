@@ -2,12 +2,24 @@
 # encoding: utf-8
 
 schema:
-  schema_id: Esperanto
+  schema_id: esperanto
   name: Esperanto
-  version: "0.2"
+  version: "0.3"
   author:
     - Darcy Shen <sadhen@zoho.com>
     - 阿森納裡 <15678407@qq.com>
+    - Ayaka Mikazuki <ayaka@mail.shn.hk>
+  description: |-
+    rime 世界语输入法，用原字母 + x 输入六个带帽字母 ĉĝĥĵŝŭ
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 世界語, 英文 ]
+  - name: full_shape
+    reset: 0
+  - name: ascii_punct
+    reset: 1
 
 engine:
   processors:
@@ -30,6 +42,6 @@ speller:
   auto_select_unique_candidate: true  # 無重碼自動上屏
 
 translator:
-  dictionary: Esperanto
+  dictionary: esperanto
   enable_completion: false  # 禁用編碼提示
   enable_user_dict: false  # 禁用用户词典
