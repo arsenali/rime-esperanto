@@ -11,4 +11,4 @@
 
 ## 安装
 
-[东风破](https://github.com/rime/plum) 安装口令： <code> bash rime-install arsenali/rime-esperanto </code>
+[东风破](https://github.com/rime/plum)安装口令：`bash rime-install arsenali/rime-esperanto`。
