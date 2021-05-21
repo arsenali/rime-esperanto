@@ -3,14 +3,14 @@
 
 schema:
   schema_id: esperanto
-  name: Esperanto
+  name: esperanto
   version: "0.3"
   author:
     - Darcy Shen <sadhen@zoho.com>
     - 阿森納裡 <15678407@qq.com>
     - Ayaka Mikazuki <ayaka@mail.shn.hk>
-  description: |-
-    rime 世界语输入法，用原字母 + x 输入六个带帽字母 ĉĝĥĵŝŭ
+  description: |
+    rime 世界语输入法，用原字母 + x 输入六个带帽字母 ĉĝĥĵŝŭ。
 
 switches:
   - name: ascii_mode
