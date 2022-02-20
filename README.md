@@ -12,3 +12,11 @@
 ## 安装
 
 [东风破](https://github.com/rime/plum)安装口令：`bash rime-install arsenali/rime-esperanto`。
+
+<br>
+
+### &#8627; Stargazers
+[![Stargazers repo roster for @arsenali/rime-esperanto](https://reporoster.com/stars/arsenali/rime-esperanto)](https://github.com/arsenali/rime-esperanto/stargazers)
+
+### &#8627; Forkers
+[![Forkers repo roster for @arsenali/rime-esperanto](https://reporoster.com/forks/arsenali/rime-esperanto)](https://github.com/arsenali/rime-esperanto/network/members)
